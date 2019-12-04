@@ -148,7 +148,7 @@
 	qcom,mdss-dsi-panel-on-check-value = <0x9c>;
 	qcom,mdss-dsi-panel-status-read-length = <1>;
 	qcom,mdss-dsi-panel-max-error-count = <3>;
-	qcom,mdss-dsi-min-refresh-rate = <53>;
+	qcom,mdss-dsi-min-refresh-rate = <60>;
 	qcom,mdss-dsi-max-refresh-rate = <60>;
 	qcom,mdss-dsi-pan-enable-dynamic-bitclk;
 	qcom,mdss-dsi-dynamic-bitclk_freq = <798240576 801594528 804948480
@@ -189,8 +189,8 @@
                26 21 09 0b 06 03 04 a0
                26 21 09 0b 06 03 04 a0
                26 20 0a 0b 06 03 04 a0];
-	qcom,mdss-dsi-min-refresh-rate = <60>;
-        qcom,mdss-dsi-max-refresh-rate = <60>;
+	qcom,mdss-dsi-min-refresh-rate = <70>;
+        qcom,mdss-dsi-max-refresh-rate = <70>;
 };
 
 &dsi_nt36672a_shenchao_fhdplus_video {
@@ -199,7 +199,7 @@
                26 21 09 0b 06 03 04 a0
                26 21 09 0b 06 03 04 a0
                26 20 0a 0b 06 03 04 a0];
-	qcom,mdss-dsi-min-refresh-rate = <48>;
+	qcom,mdss-dsi-min-refresh-rate = <60>;
         qcom,mdss-dsi-max-refresh-rate = <60>;
 };
 
@@ -209,7 +209,7 @@
                26 21 09 0b 06 03 04 a0
                26 21 09 0b 06 03 04 a0
                26 20 0a 0b 06 03 04 a0];
-	qcom,mdss-dsi-min-refresh-rate = <48>;
+	qcom,mdss-dsi-min-refresh-rate = <60>;
         qcom,mdss-dsi-max-refresh-rate = <60>;
 };
 
