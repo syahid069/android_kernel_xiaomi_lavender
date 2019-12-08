@@ -646,7 +646,7 @@ QDF_STATUS lim_send_link_report_action_frame(tpAniSirGlobal, tpSirMacLinkReport,
  * @pMac: pointer to global MAC context
  * @dialog_token: Dialog token to be used in the action frame
  * @num_report: number of reports in pRRMReport
- * @is_last_frame: is the current report last or more reports to follow
+ * @last_beacon_report_params: Last Beacon Report indication params
  * @pRRMReport: Pointer to the RRM report structure
  * @peer: MAC address of the peer
  * @psessionEntry: Pointer to the PE session entry
@@ -657,7 +657,8 @@ QDF_STATUS
 lim_send_radio_measure_report_action_frame(tpAniSirGlobal pMac,
 				uint8_t dialog_token,
 				uint8_t num_report,
-				bool is_last_frame,
+				struct rrm_beacon_report_last_beacon_params
+				*last_beacon_report_params,
 				tpSirMacRadioMeasureReport pRRMReport,
 				tSirMacAddr peer,
 				tpPESession psessionEntry);
